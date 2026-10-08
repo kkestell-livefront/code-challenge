@@ -41,6 +41,7 @@ export default defineConfig({
         'app/layout.tsx',
         'app/page.tsx',
         'app/api/**',
+        'app/demo/**',
 
         // Misc
         'constants/**',

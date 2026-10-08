@@ -7,6 +7,8 @@
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Running Locally](#running-locally)
+    - [Environment Variables](#environment-variables)
+  - [Deployment](#deployment)
   - [Scripts](#scripts)
   - [Project Structure](#project-structure)
   - [Browser Compatibility](#browser-compatibility)
@@ -29,6 +31,18 @@
 2. Run: `npm install`
 3. Run: `npm run dev`
 4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+The restaurant card demo is at [/demo/restaurant-card](http://localhost:3000/demo/restaurant-card).
+
+### Environment Variables
+
+| Name            | Description                                                                                                                | Default |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------- | ------- |
+| PAGES_BASE_PATH | Base path for a GitHub Pages build, such as `/code-challenge`. When set, `npm run build` writes a static export to `out/`. | unset   |
+
+## Deployment
+
+`.github/workflows/pages.yml` builds a static export and deploys it to GitHub Pages on every push to `main`.
 
 ## Scripts
 

@@ -1,6 +1,14 @@
 import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+
 import './globals.css';
 import branding from '@/constants/branding';
+
+const poppins = Poppins({
+  weight: ['500', '600'],
+  subsets: ['latin'],
+  variable: '--font-poppins',
+});
 
 export const metadata: Metadata = {
   title: `${branding.name} | ${branding.tagline}`,
@@ -18,7 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className={`${poppins.variable} bg-background-primary font-sans antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
