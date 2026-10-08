@@ -1,7 +1,7 @@
 const branding = {
-  name: 'Ligma',
-  tagline: 'Tagline goes here.',
-  description: 'Description goes here.',
+  name: 'Flavor Finder',
+  tagline: 'Top Restaurants in Flavor Town',
+  description: 'Find the top restaurants in Flavor Town.',
 };
 
 export default branding;

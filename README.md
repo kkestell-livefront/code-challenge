@@ -1,8 +1,8 @@
-# ligma
+# Flavor Finder
 
 ## Table of Contents
 
-- [ligma](#ligma)
+- [Flavor Finder](#flavor-finder)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
