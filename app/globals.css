@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+:root {
+  /* ============== colors ============== */
+  /* text  */
+
+  /* background  */
+
+  /* state  */
+
+  /* UI  */
+}
+
+@theme inline {
+  /* colors */
+
+  /* sizing  */
+
+  /* text  */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* ============== colors ============== */
+  }
+}
+
+/* ======== Utilities ======== */
